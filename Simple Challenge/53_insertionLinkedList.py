@@ -25,9 +25,6 @@ class LinkedList:
         new_node.next=prev.next
         prev.next=new_node
 
-
-
-
     def print_list(self):
         current=self.head
         while current is not None:
